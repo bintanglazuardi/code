@@ -2,7 +2,7 @@
   "name": "code",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://github.com/bintanglazuardi/code",
+  "homepage": "https://bintanglazuardi.github.io/code",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

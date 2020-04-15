@@ -3,6 +3,7 @@ import "./App.css";
 import {
   BrowserRouter,
   Switch,
+  Route
 } 
 from "react-router-dom";
 import Header from "./Header";
@@ -24,7 +25,7 @@ function App() {
             About
           </Route>
           <Route path="/blog/:articleId" component={BlogDetail} />
-          <Route path="/blog">
+          <Route path="/blog" component={Blog}>
             <Blog />
           </Route>
           <Route path="/">
